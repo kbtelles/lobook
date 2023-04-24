@@ -9,4 +9,5 @@ html{
     font-size: 10px;
     font-family: 'Edu NSW ACT Foundation', cursive;
     max-width: 375px; /* tamaño maximo de la página*/
+    margin: auto;
 }
