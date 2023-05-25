@@ -16,8 +16,8 @@
     
     .titulo{
         padding: 1rem;
-        font-size: 3rem;
-        font-weight: 900;
+        font-size: 300%;
+        font-weight: 500;
     }
     
     .carreta{
@@ -174,3 +174,4 @@
         width: 22rem;
     }
 }
+
