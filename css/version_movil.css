@@ -1,0 +1,176 @@
+@media screen and (max-width: 375px){
+    .caja{
+        max-width: 375px;
+        background-color: rgb(249, 187, 106);
+        height: 107rem;
+        margin: auto;
+    }
+    
+    .header{
+        height: 6rem;
+        background-color:rgb(245, 99, 99);
+    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .titulo{
+        padding: 1rem;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    
+    .carreta{
+        display: block;
+        height: 4em ;
+        margin: 1.5rem 2rem 0 auto ;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    
+    .comentario{
+        margin-top: 1.5rem;
+        margin-right:2.5rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    /***********************************************/
+    
+    .caja1{
+        height: 5rem;
+        padding: 2rem;
+        width: auto;
+    
+    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .busqueda{
+        width: 10rem;
+        height: 2rem;
+        padding: 0.3rem;
+        border: 1px solid black;
+        font-size: 1rem;
+        font-weight: 500;
+    
+    }
+    
+    .logobusq{
+        width: 2.5rem;
+        height: 2rem;
+        padding-left: 0.3rem;
+        padding-top: 0.2rem;
+        border: 1px solid black;
+    }
+    
+    .imgbusq{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .indice{
+        display: block;
+        margin: 0 0 0 auto;
+        width: 5rem;
+        height: 3rem;
+        padding-left: 0.7rem;
+        padding-top: 0.2rem;
+        border: 1px solid black;
+    }
+    
+    .imgind{
+        width: 3rem;
+        height: 2.5rem;
+    }
+    
+    /*********************************/
+    
+    .name{
+        align-items: center;
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    
+    /*****************************/
+    
+    .catalogo{
+        background-color: rgb(253, 183, 128);
+        height: 50rem;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .cajas{
+        width: 9.3rem;
+        height: 20rem;
+        background-color: black;
+        margin-left: 0.8rem;
+        margin-top: 1.5rem;
+    }
+    
+    /****************************/
+    
+    .mes{
+        background-color: rgb(143, 221, 221);
+        height: 26rem;
+        margin: 1rem;
+    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .onemes{
+        background-color: blueviolet;
+        height: 24;
+        margin: 1rem;
+    }
+    
+    .names{
+        font-size: 1.6rem;
+        width: 15rem;
+        height: 3rem;
+        padding: 0.5rem;
+        background-color: rgb(191, 191, 217);
+    }
+    
+    .textmes{
+        width: 17rem;
+        height: 21rem;
+        background-color: azure;
+        margin-top: 4rem;
+        margin-left: 0.5rem;
+    
+    }
+    
+    /********************************/
+    
+    .footer{
+        background-color: blue;
+        height: 14rem;
+        padding: 1.5rem;
+    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .fotinf{
+        background-color: aqua;
+        height: 11rem;
+        width: 22rem;
+    }
+    
+    .fotcontac{
+        background-color: blanchedalmond;
+        margin-left: 1rem;
+        height: 11rem;
+        width: 22rem;
+    }
+}
