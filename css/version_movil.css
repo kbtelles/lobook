@@ -110,9 +110,27 @@
     .cajas{
         width: 9.3rem;
         height: 20rem;
-        background-color: black;
+        background-color: rgb(228, 127, 127);
         margin-left: 0.8rem;
         margin-top: 1.5rem;
+    }
+
+    
+    /***************CONTENIDO DE CAJAS POPULARES******************/
+    .imagen_pop{
+        width: 100%;
+        height: 15rem;
+    }
+
+    .titulo_pop{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .precio_pop{
+        margin-top: 0.4rem;
+        font-size: 1.2rem;
+        text-align: center;
     }
     
     /****************************/
@@ -141,13 +159,37 @@
     }
     
     .textmes{
-        width: 17rem;
+        width: 21rem;
         height: 21rem;
         background-color: azure;
         margin-top: 4rem;
         margin-left: 0.5rem;
-    
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 1rem;
+
     }
+    /***************CONTENIDO DE CAJA MES******************/
+
+    .descripción{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .tit{
+        font-size:1.2rem;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        height: 3rem;
+        background-color: rgb(191, 191, 217);
+    }
+
+    .imgmes{
+        width: 100%;
+        height: 21rem;
+    }
+
     
     /********************************/
     
