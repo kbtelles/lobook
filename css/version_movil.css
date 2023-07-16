@@ -250,3 +250,61 @@
 
 }
 
+ /**************CUADROS - LIBROS*********************/
+
+ .div-flotante {
+    position: fixed;
+    padding: 0.5rem;
+    width: 90%;
+    height: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(220, 206, 198);
+    border: 1px solid #2e2d2d;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+    .Comprar{
+        width: 2rem;
+        height: 2rem;
+        margin-left: 13rem;
+        margin-top: 1rem;
+    }
+
+    .cerrar-flotante{
+        font-size: 2rem;
+        margin-top: 1rem;
+        background-color: rgb(220, 206, 198);
+        border: none;
+    }
+
+    .titu{
+        padding-left: 1rem;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .caja_column{
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+    }
+
+
+    .caratula{
+        padding-left: 1rem;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .caj_inf{
+        width: 95%;
+        font-size: 1.3rem;
+        padding-left: 1rem;
+
+    }
+
+
+
+
