@@ -36,9 +36,11 @@ contenido_autor_mes = `
         <img class="imgmes" src="${autorAleatorio.img}" alt="${autorAleatorio.Autor}">
     </section>
 
+    <section class="caja_tezt_mes">
         <div class="textmes">${autorAleatorio.Autor}
         <p class="descripción" >${autorAleatorio.Descripcion}</p>
         </div>
+    </section>
 `;
 
 let autor = document.querySelector(".mes");

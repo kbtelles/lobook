@@ -1,13 +1,13 @@
 @media screen and (max-width: 375px){
     .caja{
-        background-color: rgb(249, 187, 106);
-        height: 107rem;
+        background-color: rgb(255, 245, 231);
+        height: 108rem;
         margin: auto;
     }
     
     .header{
         height: 6rem;
-        background-color:rgb(245, 99, 99);
+        background-color:rgb(213, 169, 140);
     
         display: flex;
         flex-direction: row;
@@ -30,7 +30,7 @@
     
     .comentario{
         margin-top: 1.5rem;
-        margin-right:2.5rem;
+        margin-right:1.5rem;
         width: 3rem;
         height: 3rem;
     }
@@ -38,8 +38,8 @@
     /***********************************************/
     
     .caja1{
-        height: 5rem;
-        padding: 2rem;
+        padding: 0.5rem;
+        padding-top: 1rem;
         width: auto;
     
     
@@ -47,37 +47,33 @@
         flex-direction: row;
     }
     
-    .busqueda{
-        width: 10rem;
-        height: 2rem;
-        padding: 0.3rem;
+    
+#searchInput{
+        width: 15rem;
+        height: 3rem;
         border: 1px solid black;
         font-size: 1rem;
         font-weight: 500;
-    
     }
     
-    .logobusq{
-        width: 2.5rem;
-        height: 2rem;
-        padding-left: 0.3rem;
-        padding-top: 0.2rem;
-        border: 1px solid black;
+    #searchInput:hover{
+        border-color:rgb(213, 169, 140);
     }
-    
-    .imgbusq{
-        width: 1.5rem;
-        height: 1.5rem;
+
+
+    #reiniciarBtn{
+        font-size: 0.5rem;
+        width: 6rem;
+        height: 3rem;
+        border-color: black;
     }
-    
+
     .indice{
         display: block;
         margin: 0 0 0 auto;
-        width: 5rem;
+        width: 4rem;
         height: 3rem;
-        padding-left: 0.7rem;
-        padding-top: 0.2rem;
-        border: 1px solid black;
+        margin-right: 0.8rem;
     }
     
     .imgind{
@@ -94,12 +90,13 @@
         justify-content: center;
         font-weight: 800;
         font-size: 3rem;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
     }
     
     /*****************************/
     
     .catalogo{
-        background-color: rgb(253, 183, 128);
         height: 50rem;
     
         display: flex;
@@ -110,7 +107,7 @@
     .cajas{
         width: 9.3rem;
         height: 20rem;
-        background-color: rgb(228, 127, 127);
+        background-color: rgb(208, 179, 163);
         margin-left: 0.8rem;
         margin-top: 1.5rem;
     }
@@ -136,7 +133,6 @@
     /****************************/
     
     .mes{
-        background-color: rgb(143, 221, 221);
         height: 26rem;
         margin: 1rem;
     
@@ -145,29 +141,28 @@
     }
     
     .onemes{
-        background-color: blueviolet;
         height: 24;
         margin: 1rem;
     }
     
     .names{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         width: 15rem;
         height: 3rem;
         padding: 0.5rem;
-        background-color: rgb(191, 191, 217);
     }
     
-    .textmes{
-        width: 21rem;
-        height: 21rem;
-        background-color: azure;
-        margin-top: 4rem;
+    .caja_tezt_mes{
+        width: 22rem;
+        height: 20rem;
+        background-color: rgb(220, 206, 198);
         margin-left: 0.5rem;
-        font-size: 2rem;
         text-align: center;
         padding-top: 1rem;
+    }
 
+    .textmes{
+        font-size: 2rem;
     }
     /***************CONTENIDO DE CAJA MES******************/
 
@@ -182,37 +177,76 @@
         padding: 1rem;
         width: 100%;
         height: 3rem;
-        background-color: rgb(191, 191, 217);
+        background-color: rgb(220, 206, 198);
     }
 
     .imgmes{
         width: 100%;
-        height: 21rem;
+        height: 20rem;
     }
 
     
     /********************************/
     
     .footer{
-        background-color: blue;
         height: 14rem;
         padding: 1.5rem;
+        margin-top: 2rem;
     
         display: flex;
         flex-direction: row;
     }
     
     .fotinf{
-        background-color: aqua;
         height: 11rem;
-        width: 22rem;
+        width: 80rem;
     }
     
-    .fotcontac{
-        background-color: blanchedalmond;
-        margin-left: 1rem;
-        height: 11rem;
-        width: 22rem;
-    }
+
+.font_titu{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.font_one{
+    font-size: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    color: black;
+}
+
+.font_two{
+    font-size: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    color: black;
+}
+
+.font_three{
+    font-size: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    color: black;
+}
+
+/********************************/
+.fotcontac{
+    height: 10rem;
+    width: 40rem;
+    margin-right: 0.7rem;
+    text-align: right;
+}
+
+.cont_icon{
+    margin-top: -0.5rem;
+    margin-right: 3.5rem;
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.correo{
+    font-size: 1rem;
+    margin-right: 1rem;
+
+}
+
 }
 

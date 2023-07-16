@@ -1,20 +1,20 @@
-.caja{
+.caja{ 
     max-width: 1366px;
-    background-color: rgb(249, 187, 106);
-    height: 160rem;
+    background-color: rgb(255, 245, 231);
+    height: 308vh;
     margin: auto;
 }
 
 .header{
     height: 8rem;
-    background-color:rgb(245, 99, 99);
+    background-color:rgb(213, 169, 140);
 
     display: flex;
     flex-direction: row;
 }
 
 .titulo{
-    padding: 1rem;
+    padding: 1.3rem;
     font-size: 5rem;
     font-weight: 900;
 }
@@ -42,47 +42,42 @@
     padding: 2rem;
     width: auto;
 
-
     display: flex;
     flex-direction: row;
 }
 
-.busqueda{
+
+
+#searchInput{
     width: 45rem;
-    height: 3rem;
-    padding: 0.3rem;
-    border: 1px solid black;
+    height: 4rem;
     font-size: 2rem;
     font-weight: 500;
-
+    border-radius: 2rem;
+    padding-left: 1rem;
 }
 
-.logobusq{
-    width: 3.5rem;
-    height: 3rem;
-    padding-left: 0.3rem;
-    padding-top: 0.2rem;
-    border: 1px solid black;
+#reiniciarBtn{
+    width: 8rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: rgb(255, 246, 240);
 }
 
-.imgbusq{
-    width: 2.5rem;
-    height: 2.5rem;
+#reiniciarBtn:hover{
+    background-color: rgb(240, 223, 213);
 }
 
 .indice{
     display: block;
     margin: 0 0 0 auto;
-    width: 5rem;
-    height: 3rem;
     padding-left: 0.7rem;
     padding-top: 0.2rem;
-    border: 1px solid black;
 }
-
+  
 .imgind{
-    width: 3rem;
-    height: 2.5rem;
+    width: 4rem;
+    height: 3rem;
 }
 
 /*********************************/
@@ -94,12 +89,12 @@
     justify-content: center;
     font-weight: 1000;
     font-size: 450%;
+    padding-top: 4rem;
 }
 
 /*****************************/
 
 .catalogo{
-    background-color: rgb(253, 183, 128);
     height: 75rem;
 
     display: flex;
@@ -110,15 +105,18 @@
 .cajas{
     width: 30%;
     height: 50%;
-    background-color: rgb(193, 44, 44);
+    background-color: rgb(208, 179, 163);
     margin-left: 0.2rem;
     margin-top: 1.5rem;
+    border-radius: 1.5rem;
 }
 
 /***************CONTENIDO DE CAJAS POPULARES******************/
 .imagen_pop{
     width: 100%;
     height: 30rem;
+    border-radius: 1.5rem  1.5rem 0 0;
+
 }
 
 .titulo_pop{
@@ -131,76 +129,244 @@
     font-size: 2rem;
     text-align: center;
 }
-/****************************/
+/************MES****************/
 
 .mes{
     height: 45rem;
-    margin-top: 10rem;
+    margin-top: 13rem;
     margin-left: 1.5rem;
     display: flex;
     flex-direction: row;
 }
 
 .onemes{
-    background-color: blueviolet;
     margin: 1rem;
     width: 30%;
 }
 
-.textmes{
+.caja_tezt_mes{
     width: 66%;
     height: 40rem;
-    background-color: azure;
+    background-color: rgb(220, 206, 198);
     margin-top: 4rem;
-    margin-left: 0.5rem;
-    font-size: 6rem;
+    margin-left: 0.6rem;
+    padding-top: 1rem;
     text-align: center;
-    padding-top: 5rem;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 2rem;
+}
+.textmes{
+    font-size: 6rem;
 }
 /***************CONTENIDO DE CAJA MES******************/
 
 .descripción{
     font-size: 2rem;
     padding: 3rem;
+    text-align: center;
 }
 
 .tit{
-    font-size:2rem;
+    font-size:4rem;
     text-align: center;
     padding: 0.5rem;
     width: 100%;
-    height: 3rem;
-    background-color: rgb(191, 191, 217);
+    height: 5rem;
+    background-color: rgb(220, 206, 198);
 }
 
 .imgmes{
     width: 100%;
-    height: 40rem;
+    height: 38rem;
 }
 
 
 
-/********************************/
+/**************FOOTER******************/
 
 .footer{
-    background-color: blue;
-    height: 24rem;
-    padding: 1.5rem;
-
+    background-color:rgb(213, 169, 140);
+    padding: 1rem;
+    margin-top: 10rem;
     display: flex;
     flex-direction: row;
 }
 
 .fotinf{
-    background-color: aqua;
-    height: 21rem;
+    height: 15rem;
     width: 70rem;
 }
 
-.fotcontac{
-    background-color: blanchedalmond;
-    margin-left: 1rem;
-    height: 21rem;
-    width: 55rem;
+.font_titu{
+    font-size: 3rem;
+    padding: 1rem;
 }
+
+.font_one{
+    font-size: 1.8rem;
+    padding: 0 1rem 1rem 1rem;
+    color: black;
+}
+
+.font_two{
+    font-size: 1.8rem;
+    padding: 0 1rem 1rem 1rem;
+    color: black;
+}
+
+.font_three{
+    font-size: 1.8rem;
+    padding: 0 1rem 1rem 1rem;
+    color: black;
+}
+
+/********************************/
+.fotcontac{
+    height: 15rem;
+    width: 52rem;
+    margin-right: 0.7rem;
+    text-align: right;
+}
+
+.font_titu{
+    font-size: 3rem;
+    padding: 1rem;
+}
+.cont_icon{
+    margin-top: -0.5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.correo{
+    margin-right: 1rem;
+
+}
+
+/*****************/
+.indice-vertical {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    z-index: 9999;
+  }
+  
+  .indice-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .indice-lista li {
+    margin-bottom: 10px;
+  }
+
+  
+/*******************************************/
+.ventana-emergente {
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 9999;
+  }
+  
+  .ventana-emergente-comprar {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .ventana-emergente-comentario {
+    top: 10px;
+    right: 10px;
+  }
+  
+
+  /************************/
+    /**************CUADROS - LIBROS*********************/
+
+  .div-flotante {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    padding: 2rem;
+    width: 60%;
+    height: 65%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(220, 206, 198);
+    border: 1px solid #2e2d2d;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+    .Comprar{
+        width: 4rem;
+        height: 4rem;
+        margin-left: 45rem;
+        margin-top: 1rem;
+    }
+
+    .cerrar-flotante{
+        font-size: 2rem;
+        margin-top: 1rem;
+        background-color: rgb(220, 206, 198);
+        border: none;
+    }
+
+    .titu{
+        padding-left: 1rem;
+        font-size: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .caja_column{
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+    }
+
+
+    .caratula{
+        padding-left: 1rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .caj_inf{
+        width: 95%;
+        font-size: 2rem;
+        padding-left: 1rem;
+
+    }
+  /***************************/
+  .boton-cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /*******************/
+  .div-no-existencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+
+
+
