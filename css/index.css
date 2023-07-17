@@ -1,3 +1,4 @@
+
 .caja{ 
     max-width: 1366px;
     background-color: rgb(255, 245, 231);
@@ -279,7 +280,7 @@
     border: 1px solid #ccc;
     z-index: 9999;
   }
-  
+
   .ventana-emergente-comprar {
     top: 10px;
     right: 10px;
@@ -288,6 +289,33 @@
   .ventana-emergente-comentario {
     top: 10px;
     right: 10px;
+    width: 30rem;
+    height: 30rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+  }
+  
+  .comentario-input {
+    width: 95%;
+    height: 200px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    resize: none;
+  }
+  
+  .enviar-btn {
+    margin-top: 2rem;
+    align-self: flex-end;
+    margin-right: 1rem;
+  }
+  
+  .ventana-cerrarr{
+    margin-right: 26rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
   }
   
 
@@ -370,3 +398,46 @@
 
 
 
+/*******************/
+.ventana-emergente-1{
+    top: 290%;
+    background-color: rgb(238, 191, 164);
+    width: 50rem;
+    height: 13rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1rem;
+    border-radius:2rem;
+  }
+
+  .ventana-cerrar{
+    margin-right: 45rem;
+    padding-top: 2rem;
+  }
+
+
+  .ventana-emergente-2{
+    top: 287%;
+    background-color: rgb(238, 191, 164);
+    width: 50rem;
+    height: 17rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1rem;
+    border-radius:2rem;
+  }
+
+  .ventana-emergente-3{
+    background-color: rgb(238, 191, 164);
+    width: 50rem;
+    height: 12rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1rem;
+    border-radius:2rem;
+  }
+
+  .mensajee{
+    margin-top: 10rem;
+    font-size: 3rem;
+  }

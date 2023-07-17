@@ -8,7 +8,7 @@ let contenido_header = `
 /* Se llama a la clase de la etiqueta */
 let header = document.querySelector(".header");
 
-/* Llamado para agregar el contenido*/
+/* Llamado para agregar el contenido */
 header.innerHTML = contenido_header;
 
 
@@ -26,7 +26,22 @@ Comprar.addEventListener("click", function () {
   botonCerrar.addEventListener("click", cerrarVentanaEmergenteComprar);
 
   let contenidoComprar = document.createElement("div");
-  contenidoComprar.innerHTML = "<p>ola.</p>";
+  contenidoComprar.innerHTML = `
+    <h2>Compra en línea</h2>
+    <p>Aquí puedes realizar tu compra en línea.</p>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" placeholder="Ingresa tu dirección">
+
+      <label for="tarjeta">Número de tarjeta:</label>
+      <input type="text" id="tarjeta" placeholder="Ingresa el número de tu tarjeta">
+
+      <button type="submit">Comprar</button>
+    </form>
+  `;
 
   ventanaEmergente_comprar.appendChild(botonCerrar);
   ventanaEmergente_comprar.appendChild(contenidoComprar);
@@ -40,6 +55,7 @@ function cerrarVentanaEmergenteComprar() {
 
 
 /**Comentario */
+/**Comentario */
 let comentario = document.querySelector(".comentario");
 let ventanaEmergente_comentario;
 
@@ -48,12 +64,22 @@ comentario.addEventListener("click", function () {
   ventanaEmergente_comentario.className = "ventana-emergente ventana-emergente-comentario";
 
   let botonCerrar = document.createElement("span");
-  botonCerrar.className = "ventana-cerrar";
+  botonCerrar.className = "ventana-cerrarr";
   botonCerrar.textContent = "X";
   botonCerrar.addEventListener("click", cerrarVentanaEmergenteComentario);
 
   let contenidoComentario = document.createElement("div");
-  contenidoComentario.innerHTML = "<p>jujujuj.</p>";
+
+  let comentarioInput = document.createElement("textarea");
+  comentarioInput.className = "comentario-input";
+  comentarioInput.placeholder = "Escribe tu comentario aquí";
+
+  let enviarBtn = document.createElement("button");
+  enviarBtn.textContent = "Enviar";
+  enviarBtn.addEventListener("click", enviarComentario);
+
+  contenidoComentario.appendChild(comentarioInput);
+  contenidoComentario.appendChild(enviarBtn);
 
   ventanaEmergente_comentario.appendChild(botonCerrar);
   ventanaEmergente_comentario.appendChild(contenidoComentario);
@@ -63,4 +89,14 @@ comentario.addEventListener("click", function () {
 
 function cerrarVentanaEmergenteComentario() {
   ventanaEmergente_comentario.remove();
+}
+
+function enviarComentario() {
+  let comentarioInput = document.querySelector(".comentario-input");
+  let comentarioTexto = comentarioInput.value;
+
+
+  console.log("Comentario enviado:", comentarioTexto);
+
+  cerrarVentanaEmergenteComentario();
 }

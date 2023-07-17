@@ -55,6 +55,7 @@ function buscarLibros() {
 
     // Crear el mensaje de no existencia
     let mensajeNoExistencia = document.createElement('p');
+    mensajeNoExistencia.className = 'mensajee';
     mensajeNoExistencia.textContent = '¡Ups! Lamento informarte que el libro no está en existencia en estos momentos.';
 
     // Agregar el mensaje al contenedor

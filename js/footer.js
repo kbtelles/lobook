@@ -17,7 +17,7 @@ footer.innerHTML = contenido_footer;
 
 
 
-/**¿Quienes somos? */
+/**¿Quiénes somos? */
 let quienesSomos = document.querySelector(".font_one");
 let ventanaEmergente1;
 
@@ -32,17 +32,24 @@ quienesSomos.addEventListener("click", function() {
 
   let contenidoVentana1 = document.createElement("div");
   contenidoVentana1.innerHTML = "<p>Somos una página que brinda comodidad, accesibilidad y una amplia gama de opciones a los lectores, permitiéndoles descubrir, explorar y adquirir libros de manera conveniente desde cualquier lugar y en cualquier momento.</p>";
-  
+
   ventanaEmergente1.appendChild(botonCerrar1);
   ventanaEmergente1.appendChild(contenidoVentana1);
-  
+
+  // Añadir estilos CSS y ajustar posición
+  ventanaEmergente1.style.position = "absolute";
+  ventanaEmergente1.style.backgroundColor = "white";
+  ventanaEmergente1.style.padding = "10px";
+  ventanaEmergente1.style.border = "1px solid black";
+  ventanaEmergente1.style.left = "50%";
+  ventanaEmergente1.style.transform = "translate(-50%, -50%)";
+
   document.body.appendChild(ventanaEmergente1);
 });
 
 function cerrarVentanaEmergente1() {
   ventanaEmergente1.remove();
 }
-
 
 
 /**¿De donde surgio el nombre? */
@@ -63,6 +70,14 @@ surgioNombre.addEventListener("click", function() {
   
   ventanaEmergente2.appendChild(botonCerrar2);
   ventanaEmergente2.appendChild(contenidoVentana2);
+
+   // Añadir estilos CSS y ajustar posición
+   ventanaEmergente2.style.position = "absolute";
+   ventanaEmergente2.style.backgroundColor = "white";
+   ventanaEmergente2.style.padding = "10px";
+   ventanaEmergente2.style.border = "1px solid black";
+   ventanaEmergente2.style.left = "50%";
+   ventanaEmergente2.style.transform = "translate(-50%, -50%)";
   
   document.body.appendChild(ventanaEmergente2);
 });
@@ -91,6 +106,14 @@ metodosPagos.addEventListener("click", function() {
   
   ventanaEmergente3.appendChild(botonCerrar3);
   ventanaEmergente3.appendChild(contenidoVentana3);
+
+     // Añadir estilos CSS y ajustar posición
+     ventanaEmergente3.style.position = "absolute";
+     ventanaEmergente3.style.backgroundColor = "white";
+     ventanaEmergente3.style.padding = "10px";
+     ventanaEmergente3.style.border = "1px solid black";
+     ventanaEmergente3.style.left = "50%";
+     ventanaEmergente3.style.transform = "translate(-50%, -50%)";
   
   document.body.appendChild(ventanaEmergente3);
 });

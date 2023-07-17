@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px){ 
     .caja{
         background-color: rgb(255, 245, 231);
         height: 108rem;
@@ -248,7 +248,7 @@
 
 }
 
-}
+
 
  /**************CUADROS - LIBROS*********************/
 
@@ -262,7 +262,7 @@
     border: 1px solid #2e2d2d;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     z-index: 9999;
-  }
+  } 
   
     .Comprar{
         width: 2rem;
@@ -305,6 +305,43 @@
 
     }
 
+    .mensajee{
+        margin: 1rem;
+        margin-top: 10rem;
+        font-size: 1.5rem;
+      }
 
+      .ventana-emergente-1{
+        top: 203%;
+        background-color: rgb(238, 191, 164);
+        width: 30rem;
+        height: 7rem;
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 1rem;
+        border-radius:2rem;
+      }
+    
+      .ventana-emergente-2{
+        top: 200%;
+        background-color: rgb(238, 191, 164);
+        width: 30rem;
+        height: 9rem;
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 1rem;
+        border-radius:2rem;
+      }
 
-
+      
+      .ventana-emergente-3{
+        top: 203%;
+        background-color: rgb(238, 191, 164);
+        width: 30rem;
+        height: 7rem;
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 1rem;
+        border-radius:2rem;
+      }
+}
