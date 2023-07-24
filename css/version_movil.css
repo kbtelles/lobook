@@ -1,35 +1,49 @@
 @media screen and (max-width: 375px){ 
     .caja{
-        background-color: rgb(255, 245, 231);
-        height: 108rem;
+        height: auto;
         margin: auto;
     }
     
     .header{
         height: 6rem;
+        padding: 0rem 0rem 0rem 1rem;
         background-color:rgb(213, 169, 140);
     
         display: flex;
         flex-direction: row;
     }
-    
+    .header .div-derecho {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 10rem;
+      }
+
     .titulo{
         padding: 1rem;
         font-size: 300%;
         font-weight: 500;
     }
-    
-    .carreta{
-        display: block;
-        height: 4em ;
-        margin: 1.5rem 2rem 0 auto ;
+
+    .caja-carreta {
+        position: relative;
         width: 3rem;
         height: 3rem;
-    }
+      }
+      .burbuja {
+        position: absolute;
+        top: -10;
+        right: -4;
+        background-color: red;
+      font-size: 1.2rem;
+      color: #fff;
+      padding: 0.1rem;
+      border-radius: 100%;
+      }
+      
     
     
     .comentario{
-        margin-top: 1.5rem;
         margin-right:1.5rem;
         width: 3rem;
         height: 3rem;
@@ -41,6 +55,7 @@
         padding: 0.5rem;
         padding-top: 1rem;
         width: auto;
+
     
     
         display: flex;
@@ -49,10 +64,10 @@
     
     
 #searchInput{
-        width: 15rem;
+        width: 20rem;
         height: 3rem;
         border: 1px solid black;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 500;
     }
     
@@ -89,7 +104,7 @@
         height: 50px;
         justify-content: center;
         font-weight: 800;
-        font-size: 3rem;
+        font-size: 4rem;
         margin-top: -1rem;
         margin-bottom: 1rem;
     }
@@ -97,7 +112,7 @@
     /*****************************/
     
     .catalogo{
-        height: 50rem;
+        height: auto;
     
         display: flex;
         flex-wrap: wrap;
@@ -105,10 +120,9 @@
     }
     
     .cajas{
-        width: 9.3rem;
-        height: 20rem;
+        width: 16rem;
+        height: auto;
         background-color: rgb(208, 179, 163);
-        margin-left: 0.8rem;
         margin-top: 1.5rem;
     }
 
@@ -116,7 +130,9 @@
     /***************CONTENIDO DE CAJAS POPULARES******************/
     .imagen_pop{
         width: 100%;
-        height: 15rem;
+        height: 18rem;
+        object-fit: cover;
+
     }
 
     .titulo_pop{
@@ -133,16 +149,18 @@
     /****************************/
     
     .mes{
-        height: 26rem;
-        margin: 1rem;
-    
+        height: auto;
+        margin-left: -1rem;
+        margin-top: 5rem;
         display: flex;
-        flex-direction: row;
+        flex-direction:column;
     }
     
     .onemes{
-        height: 24;
-        margin: 1rem;
+        width: 80%;
+        margin: auto;
+        margin-top: 3rem;
+        margin-left: 4.5rem;
     }
     
     .names{
@@ -153,36 +171,36 @@
     }
     
     .caja_tezt_mes{
-        width: 22rem;
-        height: 20rem;
+        width: 90%;
+        height: auto;
         background-color: rgb(220, 206, 198);
-        margin-left: 0.5rem;
         text-align: center;
-        padding-top: 1rem;
+        margin: 1rem;
+        margin-left: 2.5rem;
     }
 
     .textmes{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     /***************CONTENIDO DE CAJA MES******************/
 
     .descripción{
-        font-size: 1rem;
+        font-size: 2rem;
         padding: 0.5rem;
     }
 
     .tit{
-        font-size:1.2rem;
+        font-size:3rem;
         text-align: center;
-        padding: 1rem;
         width: 100%;
-        height: 3rem;
+        height: 4rem;
         background-color: rgb(220, 206, 198);
     }
 
     .imgmes{
         width: 100%;
-        height: 20rem;
+        height: auto;
+        object-fit: cover;
     }
 
     
@@ -256,31 +274,33 @@
     position: fixed;
     padding: 0.5rem;
     width: 90%;
-    height: 60%;
+    height: auto;
+    max-height: 80%; 
+    overflow-y: auto; 
     transform: translate(-50%, -50%);
     background-color: rgb(220, 206, 198);
     border: 1px solid #2e2d2d;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     z-index: 9999;
-  } 
-  
+}
+
     .Comprar{
-        width: 2rem;
-        height: 2rem;
-        margin-left: 13rem;
+        width: 4rem;
+        height: 4rem;
         margin-top: 1rem;
     }
 
     .cerrar-flotante{
         font-size: 2rem;
         margin-top: 1rem;
+        margin-left: 1rem;
         background-color: rgb(220, 206, 198);
         border: none;
     }
 
     .titu{
         padding-left: 1rem;
-        font-size: 2.5rem;
+        font-size: 3.8rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
@@ -295,53 +315,158 @@
     .caratula{
         padding-left: 1rem;
         width: 15rem;
-        height: 15rem;
+        height: 45;
     }
 
     .caj_inf{
         width: 95%;
-        font-size: 1.3rem;
-        padding-left: 1rem;
+        font-size: 1.8rem;
+        padding-left: 0.5rem;
 
     }
 
     .mensajee{
         margin: 1rem;
+        margin-top: 8rem;
+        font-size: 3rem;
+      }
+      /**********************************************/
+
+      .footer{
+        background-color: rgb(238, 191, 164);
+        padding: 1rem;
         margin-top: 10rem;
-        font-size: 1.5rem;
-      }
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
 
-      .ventana-emergente-1{
-        top: 203%;
-        background-color: rgb(238, 191, 164);
-        width: 30rem;
-        height: 7rem;
-        font-size: 0.8rem;
-        text-align: center;
-        margin: 1rem;
-        border-radius:2rem;
-      }
-    
-      .ventana-emergente-2{
-        top: 200%;
-        background-color: rgb(238, 191, 164);
-        width: 30rem;
-        height: 9rem;
-        font-size: 0.8rem;
-        text-align: center;
-        margin: 1rem;
-        border-radius:2rem;
-      }
+    .fotinf{
+        width: auto;
+        height: auto;
+        border-bottom: 1px solid black;
+    }
 
-      
-      .ventana-emergente-3{
-        top: 203%;
-        background-color: rgb(238, 191, 164);
-        width: 30rem;
-        height: 7rem;
-        font-size: 0.8rem;
-        text-align: center;
-        margin: 1rem;
-        border-radius:2rem;
-      }
+    .font_titu{
+        font-size: 3rem;
+        text-align: left;
+    }
+    .font_one{
+        font-size: 2rem;
+    }
+    .font_two{
+        font-size: 2rem;
+    }
+    .font_three{
+        font-size: 2rem;
+    }
+
+    .fotcontac{
+            width: auto;
+            height: auto;
+        
+    }
+    .cont_icon{
+        width: 8rem;
+        height: 6rem;
+        display: flex;
+        justify-content: left;
+        margin-left: 3.5rem;
+    }
+
+    .correo{
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+
+.ventana-emergente-1{
+    top: 274%;
+    border-color:rgb(213, 169, 140) ;
+    background-color: rgb(255, 245, 231);
+    border-width: 2rem;
+    width: 90%;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    border-radius:2rem;
+  }
+
+  .ventana-cerrar{
+    margin-right: 45rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+  }
+
+
+  .ventana-emergente-2{
+    top: 275%;
+    border-color:rgb(213, 169, 140) ;
+    background-color: rgb(255, 245, 231);
+    border-width: 2rem;
+    width: 90%;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    border-radius:2rem;
+  }
+
+  .ventana-emergente-3{
+    top: 275%;
+    border-color:rgb(213, 169, 140) ;
+    background-color: rgb(255, 245, 231);
+    border-width: 2rem;
+    width: 90%;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    border-radius:2rem;
+  }
+/*********************/
+/* Estilos CSS adicionales */
+.ventana-emergente {
+    z-index: 9999;
+    width: 100%;
+    overflow-y: hidden;
 }
+
+
+.ventana-emergente-comprar {
+    width: 30rem;
+    border-radius: 1.5rem;
+    background-color: rgb(255, 245, 231); 
+
+}
+
+ /****************************/
+ .caja-catalogo{
+    padding: 2rem;
+    margin: 3rem 0 0 3rem;
+    width: 85%;
+    height: 65%;
+    background-color: rgb(220, 206, 198);
+    border: 1px solid #2e2d2d;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+ }
+
+ .caja_column{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.caj_inf{
+    width: 95%;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+}
+
+
+}
+

@@ -3,7 +3,7 @@ let mes_populares = [
         Titulo: "Autor del mes",
         img: "https://s3.thingpic.com/images/Hw/TLnzQgvr5mEYjvZeJrShdNuD.jpeg",
         Autor: "Paula Hawkins",
-        Descripcion: "Es una escritora británica nacida en Harare, Zimbabwe el 26 de agosto del año 1972. Comenzó a escribir ensayo por encargo, pero se inició en la narrativa dentro del género de la comedia romántica, donde no consiguió destacar de manera notable Hawkins decidió cambiar de registro para su siguiente novela y en 2015 publicó La chica del tren, una novela de intriga y suspense que logró un gran éxito a nivel internacional, llegando a ocupar los primeros puestos de ventas en numerosos países. La novela fue adaptada al cine en 2016.Tras su primer gran éxito Hawkins publicó Escrito en el agua."
+        Descripcion: "Es una escritora británica nacida en Harare, Zimbabwe el 26 de agosto del año 1972. Comenzó a escribir ensayo por encargo, pero se inició en la narrativa dentro del género de la comedia romántica, en 2015 publicó La chica del tren, una novela de intriga y suspense que logró un gran éxito a nivel internacional. Tras su primer gran éxito Hawkins publicó Escrito en el agua."
     },
     {
         Titulo: "Autor del mes",

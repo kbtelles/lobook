@@ -1,4 +1,5 @@
- let catalogo_completo = [
+
+let catalogo_completo = [
     {
       Titulo: "1984",
       img: "https://global-uploads.webflow.com/6034d7d1f3e0f52c50b2adee/6254291caac6d1e42e8986df_62023ceb41cd1c2807b2841a_9788418933011.jpeg",

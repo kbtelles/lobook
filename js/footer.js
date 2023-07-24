@@ -38,9 +38,7 @@ quienesSomos.addEventListener("click", function() {
 
   // Añadir estilos CSS y ajustar posición
   ventanaEmergente1.style.position = "absolute";
-  ventanaEmergente1.style.backgroundColor = "white";
   ventanaEmergente1.style.padding = "10px";
-  ventanaEmergente1.style.border = "1px solid black";
   ventanaEmergente1.style.left = "50%";
   ventanaEmergente1.style.transform = "translate(-50%, -50%)";
 
@@ -73,9 +71,7 @@ surgioNombre.addEventListener("click", function() {
 
    // Añadir estilos CSS y ajustar posición
    ventanaEmergente2.style.position = "absolute";
-   ventanaEmergente2.style.backgroundColor = "white";
    ventanaEmergente2.style.padding = "10px";
-   ventanaEmergente2.style.border = "1px solid black";
    ventanaEmergente2.style.left = "50%";
    ventanaEmergente2.style.transform = "translate(-50%, -50%)";
   
@@ -109,9 +105,7 @@ metodosPagos.addEventListener("click", function() {
 
      // Añadir estilos CSS y ajustar posición
      ventanaEmergente3.style.position = "absolute";
-     ventanaEmergente3.style.backgroundColor = "white";
      ventanaEmergente3.style.padding = "10px";
-     ventanaEmergente3.style.border = "1px solid black";
      ventanaEmergente3.style.left = "50%";
      ventanaEmergente3.style.transform = "translate(-50%, -50%)";
   

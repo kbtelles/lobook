@@ -223,4 +223,4 @@ let Terror = [
       Carreta:"https://cdn-icons-png.flaticon.com/512/107/107831.png"
     }
   ];
-  
+   
